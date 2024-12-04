@@ -1,6 +1,6 @@
 ﻿using ProjectEuler.Problems;
 
-var result = P1.Solve();
+var result = P2.Solve();
 
 Console.WriteLine(result);
 
