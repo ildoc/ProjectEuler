@@ -60,5 +60,41 @@ namespace Common.Utils
 
             return result;
         }
+
+        public static List<int> GetPrimeFactors(this int n)
+        {
+            List<int> fattoriPrimi = new List<int> { 1 };
+
+            // Controlla i fattori di 2
+            while (n % 2 == 0)
+            {
+                if (!fattoriPrimi.Contains(2))
+                {
+                    fattoriPrimi.Add(2);
+                }
+                n /= 2;
+            }
+
+            // Controlla i fattori dispari da 3 in poi
+            for (int i = 3; i <= Math.Sqrt(n); i += 2)
+            {
+                while (n % i == 0)
+                {
+                    if (!fattoriPrimi.Contains(i))
+                    {
+                        fattoriPrimi.Add(i);
+                    }
+                    n /= i;
+                }
+            }
+
+            // Se n è un numero primo maggiore di 2
+            if (n > 2)
+            {
+                fattoriPrimi.Add(n);
+            }
+
+            return fattoriPrimi;
+        }
     }
 }

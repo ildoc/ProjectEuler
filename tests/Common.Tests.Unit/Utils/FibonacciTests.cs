@@ -8,7 +8,7 @@ namespace Common.Tests.Unit.Utils
         [Fact]
         public void GetFirst_Should_Return_List()
         {
-            var expected = new List<int> { 1, 2, 3, 5, 8, 13, 21, 34, 55, 89 };
+            var expected = new List<long> { 1, 1, 2, 3, 5, 8, 13, 21, 34, 55 };
 
             var result = Fibonacci.GetFirst(10);
 
@@ -18,7 +18,7 @@ namespace Common.Tests.Unit.Utils
         [Fact]
         public void GetLowerThan_Should_Return_List()
         {
-            var expected = new List<int> { 1, 2, 3, 5, 8, 13, 21, 34 };
+            var expected = new List<int> { 1, 1, 2, 3, 5, 8, 13, 21, 34 };
 
             var result = Fibonacci.GetLowerThan(50);
 
