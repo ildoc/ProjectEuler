@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "src\Common\Common
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Tests.Unit", "tests\Common.Tests.Unit\Common.Tests.Unit.csproj", "{84BBEB42-ACA2-4AA7-A146-CA687C638800}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectEuler.Tests.Unit", "tests\ProjectEuler.Tests.Unit\ProjectEuler.Tests.Unit.csproj", "{E90B4190-8AC2-40FD-9B07-B5426E74E051}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{84BBEB42-ACA2-4AA7-A146-CA687C638800}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84BBEB42-ACA2-4AA7-A146-CA687C638800}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84BBEB42-ACA2-4AA7-A146-CA687C638800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E90B4190-8AC2-40FD-9B07-B5426E74E051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E90B4190-8AC2-40FD-9B07-B5426E74E051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E90B4190-8AC2-40FD-9B07-B5426E74E051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E90B4190-8AC2-40FD-9B07-B5426E74E051}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{C5710157-B9AE-49EA-8B37-917CAB3562CD} = {9A58E8B1-8907-46B2-AEE0-6DAB8D7EEBBB}
 		{0A7DCA1C-1623-49B7-AB78-5272F11A0E67} = {9A58E8B1-8907-46B2-AEE0-6DAB8D7EEBBB}
 		{84BBEB42-ACA2-4AA7-A146-CA687C638800} = {3113CB14-8ABA-477E-A3E8-A438635D89B7}
+		{E90B4190-8AC2-40FD-9B07-B5426E74E051} = {3113CB14-8ABA-477E-A3E8-A438635D89B7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEAA32D5-211D-4A88-979C-D09D4A7C4462}

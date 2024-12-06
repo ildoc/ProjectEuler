@@ -11,4 +11,8 @@
     <ProjectReference Include="..\Common\Common.csproj" />
   </ItemGroup>
 
+    <ItemGroup>
+        <InternalsVisibleTo Include="ProjectEuler.Tests.Unit" />
+    </ItemGroup>
+
 </Project>

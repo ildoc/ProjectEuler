@@ -1,8 +1,10 @@
-﻿namespace ProjectEuler.Problems
+﻿using Common.Abstracts;
+
+namespace ProjectEuler.Problems
 {
-    internal class P1
+    internal class Problem_001 : Problem
     {
-        public static int Solve()
+        public override object Solve()
         {
             var result = 0;
             for (int i = 1; i < 1000; i++)
@@ -11,7 +13,6 @@
                 {
                     result += i;
                 }
-
             }
             return result;
         }

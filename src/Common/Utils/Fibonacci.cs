@@ -23,7 +23,7 @@
                 var newNum = result[i - 1] + result[i - 2];
 
                 if (newNum > max) break;
-                
+
                 result.Add(newNum);
                 i++;
             }
